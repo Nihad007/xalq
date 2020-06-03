@@ -1,0 +1,49 @@
+@import 'theme-colors';
+
+/*
+* === BODY, APP BACKGROUND ETC. ===
+*/
+
+.container {
+  max-width: 1040px;
+}
+
+
+.app-background {
+  background-color: var(--app-background-color);
+}
+
+.headers li {
+    color: var(--dynamic-title-color);
+}
+
+.date {
+    color: var(--dynamic-title-color);
+}
+
+.text-block-body p{
+    color: var(--dynamic-title-color);
+}
+
+.search {
+    border-bottom: 0px;
+}
+
+.search input[type="text"] {
+    background: var(--input-background-color);
+    color: var(--dynamic-title-color);
+}
+
+.change {
+    color: var(--dynamic-title-color);
+}
+
+/*.dynamic-title {
+  color: var(--dynamic-title-color);
+}
+
+.dynamic-subtitle {
+  color: var(--dynamic-subtitle-color);
+  padding-top: 10px;
+}
+*/
